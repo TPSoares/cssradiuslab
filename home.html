@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RadiusShaper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CSSRadiusLab</h1>
+      <div class="box" id="box"></div>
+      <div class="controls">
+        <label
+          >Top-Left:
+          <input type="range" id="tl-radius" min="0" max="100" value="0" />
+          <span id="tl-value">0</span>%</label
+        >
+        <label
+          >Top-Right:
+          <input type="range" id="tr-radius" min="0" max="100" value="0" />
+          <span id="tr-value">0</span>%</label
+        >
+        <label
+          >Bottom-Left:
+          <input type="range" id="bl-radius" min="0" max="100" value="0" />
+          <span id="bl-value">0</span>%</label
+        >
+        <label
+          >Bottom-Right:
+          <input type="range" id="br-radius" min="0" max="100" value="0" />
+          <span id="br-value">0</span>%</label
+        >
+      </div>
+      <button id="copy-css">Copy CSS</button>
+      <textarea id="css-output" readonly></textarea>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
