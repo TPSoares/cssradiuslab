@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateCSSOutput() {
         const cssText = `
-            border-top-left-radius: ${box.style.borderTopLeftRadius};
-            border-top-right-radius: ${box.style.borderTopRightRadius};
-            border-bottom-left-radius: ${box.style.borderBottomLeftRadius};
-            border-bottom-right-radius: ${box.style.borderBottomRightRadius};
+border-top-left-radius: ${box.style.borderTopLeftRadius};
+border-top-right-radius: ${box.style.borderTopRightRadius};
+border-bottom-left-radius: ${box.style.borderBottomLeftRadius};
+border-bottom-right-radius: ${box.style.borderBottomRightRadius};
         `;
         cssOutput.value = cssText.trim();
     }
