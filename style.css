@@ -40,3 +40,18 @@ textarea {
     margin-top: 20px;
     resize: none;
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .box {
+        width: 150px;
+        height: 150px;
+    }
+
+    input[type="range"] {
+        width: 100px;
+    }
+}
